@@ -1,0 +1,287 @@
+{
+    "back": {
+        "message": "Regresar"
+    },
+    "blocking_pages_btn_proceed": {
+        "message": "Proceder de todas maneras"
+    },
+    "blocking_pages_page_title": {
+        "message": "Acceso denegado"
+    },
+    "blocking_pages_rule_content_description": {
+        "message": "%name% No permitió que esta página se cargara debido a las reglas de filtrado."
+    },
+    "blocking_pages_rule_content_title": {
+        "message": "Bloqueado por %name%"
+    },
+    "delete": {
+        "message": "Borrar"
+    },
+    "description": {
+        "message": "Midori PMPrivacy establece astiango.co como motor de búsqueda predeterminado, bloquea rastreadores y protege sus datos personales."
+    },
+    "error_label": {
+        "message": "Error:"
+    },
+    "global_stats": {
+        "message": "Tus estadísticas acumuladas"
+    },
+    "global_stats_disable_action": {
+        "message": "Desactivar estadísticas"
+    },
+    "global_stats_disable_action_confirm": {
+        "message": "Confirmar desactivación"
+    },
+    "global_stats_disable_description": {
+        "message": "Con esta acción se perderán todas las estadísticas acumuladas hasta el momento."
+    },
+    "global_stats_disable_title": {
+        "message": "Deshabilitar estadísticas de la extensión"
+    },
+    "global_stats_disabled": {
+        "message": "Deshabilitado por el momento"
+    },
+    "global_stats_disabled_short": {
+        "message": "Desactivado"
+    },
+    "global_stats_empty": {
+        "message": "Nada por el momento"
+    },
+    "global_stats_enable": {
+        "message": "Habilitar estadísticas"
+    },
+    "global_stats_enabled_success": {
+        "message": "¡Estadísticas bien activadas! Comience a navegar por la web en busca y sus estadisticas aquí."
+    },
+    "infos": {
+        "message": "Info"
+    },
+    "loading_reload_cta": {
+        "message": "Recargar"
+    },
+    "missing_permissions_cta_button_popup": {
+        "message": "Habilitar protección"
+    },
+    "missing_permissions_default_search_engine_description": {
+        "message": "Cuando buscas desde la barra de direcciones de tu navegador."
+    },
+    "missing_permissions_default_search_engine_title": {
+        "message": "AstianGO es tu motor de búsqueda predeterminado"
+    },
+    "missing_permissions_disabled_description": {
+        "message": "Tus datos permanecen confidenciales cuando buscas en AstianGO, pero el bloqueo de rastreadores y cookies no está activado."
+    },
+    "missing_permissions_disabled_title": {
+        "message": "La protección está deshabilitada"
+    },
+    "name": {
+        "message": "Midori PMPrivacy"
+    },
+    "new": {
+        "message": "Nuevo"
+    },
+    "onboarding_step_alert_permission_description": {
+        "message": "Por lo tanto, le recomendamos que elija AstianGO sólo como motor de búsqueda predeterminado. Si has cambiado de opinión"
+    },
+    "onboarding_step_alert_permission_description_cta": {
+        "message": "cambiar permisos"
+    },
+    "onboarding_step_alert_permission_title": {
+        "message": "Has negado los permisos del navegador."
+    },
+    "onboarding_step_mode_description": {
+        "message": "Puedes modificar tu elección en cualquier momento haciendo clic en el icono"
+    },
+    "onboarding_step_mode_search": {
+        "message": "Buscar"
+    },
+    "onboarding_step_mode_search_description": {
+        "message": "Motor de búsqueda predeterminado"
+    },
+    "onboarding_step_mode_search_protection": {
+        "message": "Búsqueda y protección"
+    },
+    "onboarding_step_mode_search_protection_description": {
+        "message": "Motor de búsqueda predeterminado y protección contra rastreadores y cookies"
+    },
+    "onboarding_step_mode_title": {
+        "message": "Elige tu preferencia"
+    },
+    "onboarding_step_protection_level_description": {
+        "message": "Puedes modificar tu elección en cualquier momento haciendo clic en el icono"
+    },
+    "onboarding_step_protection_level_title": {
+        "message": "Elige tu nivel de protección"
+    },
+    "onboarding_step_request_permissions_description": {
+        "message": "<b>Midori PMP</b>rivacy Esto significa que se bloquean menos cookies y rastreadores durante su navegación. Sus datos personales estarán protegidos en todos los sitios durante su navegación."
+    },
+    "onboarding_step_request_permissions_title": {
+        "message": "Permita que Midori PMPrivacy lo proteja"
+    },
+    "onboarding_step_telemetry_checkbox_label": {
+        "message": "Comparta sus estadísticas de uso e informes de errores de forma anónima"
+    },
+    "onboarding_step_telemetry_description": {
+        "message": "Comparta sus comentarios para ayudarnos a mejorar el rendimiento de nuestras funciones. es anónimo !"
+    },
+    "onboarding_step_telemetry_title": {
+        "message": "Ayúdanos a mejorar Midori PMPrivacy"
+    },
+    "onboarding_step_thank_you_chrome_1_description": {
+        "message": "En la barra de herramientas de Chrome."
+    },
+    "onboarding_step_thank_you_chrome_1_title": {
+        "message": "Pin Midori PMPrivacy"
+    },
+    "onboarding_step_thank_you_chrome_2_description": {
+        "message": "Durante tu primera búsqueda, selecciona « Conservar » cuando Chrome te lo solicite."
+    },
+    "onboarding_step_thank_you_chrome_2_title": {
+        "message": "Asegúrese de mantener AstianGO como su motor de búsqueda predeterminado."
+    },
+    "onboarding_step_thank_you_description": {
+        "message": "Ahora,"
+    },
+    "onboarding_step_thank_you_edge_1_description": {
+        "message": "En el menu « Extensión », Despues « Administrar extensiones »"
+    },
+    "onboarding_step_thank_you_edge_1_title": {
+        "message": "Activar Midori PMPrivacy"
+    },
+    "onboarding_step_thank_you_edge_2_description": {
+        "message": "Y sigue tus estadísticas en tiempo real"
+    },
+    "onboarding_step_thank_you_edge_2_title": {
+        "message": "Pin Midori PMPrivacy"
+    },
+    "onboarding_step_thank_you_features": {
+        "message": "Seguimiento cero de sus búsquedas; Seguimiento publicitario cero; Venta cero de tus datos personales"
+    },
+    "onboarding_step_thank_you_title": {
+        "message": "Felicidades !"
+    },
+    "onboarding_stepper_authorize": {
+        "message": "Pedir permiso"
+    },
+    "onboarding_stepper_finish": {
+        "message": "Para terminar"
+    },
+    "onboarding_stepper_i_understand": {
+        "message": "He entendido"
+    },
+    "onboarding_stepper_lets_go": {
+        "message": "Nos fuimos !"
+    },
+    "onboarding_stepper_next_step": {
+        "message": "Continuar"
+    },
+    "popup_about_title": {
+        "message": "Informaciones"
+    },
+    "popup_main_nbr_blocked_elements_domain": {
+        "message": "seguro <b>%domain%</b>"
+    },
+    "popup_main_problem_disable_protection": {
+        "message": "¿Un problema en este sitio? Intenta desactivar."
+    },
+    "popup_main_protection_detail": {
+        "message": "Detalles"
+    },
+    "popup_main_protection_disabled": {
+        "message": "Protección deshabilitada"
+    },
+    "popup_main_protection_enable": {
+        "message": "Reactivar protección"
+    },
+    "popup_main_protection_enabled": {
+        "message": "Protección habilitada"
+    },
+    "popup_main_protection_unavailable": {
+        "message": "Deshabilitado"
+    },
+    "popup_settings_help_know_more_label": {
+        "message": "Descubra todo sobre Midori PMPrivacy"
+    },
+    "popup_settings_help_know_more_link": {
+        "message": "https://astian.org/midori-privacy"
+    },
+    "popup_settings_help_new_label": {
+        "message": "Qué hay de nuevo ?"
+    },
+    "popup_settings_help_new_link": {
+        "message": "https://github.com/goastian/midori-pmprivacy#readme"
+    },
+    "popup_settings_telemetry_label": {
+        "message": "Ayude a Midori a mejorar la extensión enviando informes de errores y estadísticas de uso de forma anónima."
+    },
+    "popup_settings_telemetry_learn_more": {
+        "message": "Ver más"
+    },
+    "popup_settings_telemetry_learn_more_link": {
+        "message": "https://github.com/goastian/midori-pmprivacy#privacy"
+    },
+    "popup_stats_blocked_elements": {
+        "message": "Elementos bloqueados"
+    },
+    "popup_stats_blocked_trackers": {
+        "message": "Rastreadores bloqueados"
+    },
+    "popup_stats_table_domains_label": {
+        "message": "Dominios"
+    },
+    "popup_stats_table_trackers_label": {
+        "message": "Rastreadores/Cookies"
+    },
+    "popup_stats_time_saved": {
+        "message": "Tiempo ahorrado"
+    },
+    "popup_stats_trackers": {
+        "message": "Rastreadores bloqueados"
+    },
+    "protection_level": {
+        "message": "Nivel de protección"
+    },
+    "protection_level_disabled": {
+        "message": "Desactivado"
+    },
+    "protection_level_disabled_description": {
+        "message": "La navegación protegida está deshabilitada, su motor de búsqueda predeterminado sigue siendo AstianGO."
+    },
+    "protection_level_standard": {
+        "message": "Estándan"
+    },
+    "protection_level_standard_description": {
+        "message": "Bloquea la mayoría de los rastreadores y cookies de manera efectiva."
+    },
+    "protection_level_strict": {
+        "message": "Estricto"
+    },
+    "protection_level_strict_description": {
+        "message": "Bloquea todos los rastreadores y cookies, puede modificar la funcionalidad de ciertos sitios."
+    },
+    "midori_redirect": {
+        "message": "Ir a AstianGO.co"
+    },
+    "short_name": {
+        "message": "Midori PMP"
+    },
+    "stats": {
+        "message": "Estad."
+    },
+    "survey": {
+        "message": "Comentarios"
+    },
+    "survey_url": {
+        "message": "https://fr.surveymonkey.com/r/XPK9KHJ"
+    },
+    "uninstall_url": {
+        "message": "https://fr.surveymonkey.com/r/RX2XFHC"
+    },
+    "upsell_mobile_qrcode": {
+        "message": "Escanea este código QR"
+    },
+    "upsell_mobile_title": {
+        "message": "Obtén Midori en tus dispositivos !"
+    }
+}
