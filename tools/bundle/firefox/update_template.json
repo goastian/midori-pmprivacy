@@ -1,0 +1,17 @@
+{
+  "addons": {
+    "qwant-vip-beta-2@qwant.com": {
+      "updates": [
+        {
+          "version": "%VERSION%",
+          "update_link": "https://firefox-beta.cellar-c2.services.clever-cloud.com/firefox.xpi",
+          "applications": {
+            "gecko": {
+              "strict_min_version": "78.0"
+            }
+          }
+        }
+      ]
+    }
+  }
+}

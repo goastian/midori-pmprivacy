@@ -1,0 +1,42 @@
+{
+  "manifest_version": 2,
+  "name": "__MSG_name__",
+  "short_name": "__MSG_short_name__",
+  "author": "Astian, Inc",
+  "default_locale": "en",
+  "description": "__MSG_description__",
+  "icons": {
+    "16": "assets/icons/green-16.png",
+    "128": "assets/icons/green-128.png"
+  },
+  "omnibox": {
+    "keyword": "q"
+  },
+  "browser_action": {
+    "default_icon": {
+      "19": "assets/icons/green-19.png",
+      "38": "assets/icons/green-38.png"
+    },
+    "default_title": "__MSG_name__",
+    "default_popup": "pages/popup.html"
+  },
+  "background": {
+    "page": "pages/background.html",
+    "persistent": true
+  },
+  "content_scripts": [
+    {
+      "run_at": "document_start",
+      "matches": [
+        "https://*.astiango.co/*"
+      ],
+      "css": [
+        "assets/css/no-popin.css"
+      ]
+    }
+  ],
+  "minimum_chrome_version": "79.0",
+  "web_accessible_resources": [
+    "/web-accessible-resources/*"
+  ]
+}
