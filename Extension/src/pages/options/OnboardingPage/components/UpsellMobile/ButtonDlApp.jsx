@@ -4,7 +4,7 @@ import androidSvgUrls from '../assets/android';
 import appleSvgUrl from '../assets/apple.svg';
 
 const getAppDownloadLink = (isIos) => {
-    if (isIos) return 'https://apps.apple.com/app/qwant/id924470452';
+    if (isIos) return '';
     return 'https://play.google.com/store/apps/details?id=org.midorinext.android';
 };
 
