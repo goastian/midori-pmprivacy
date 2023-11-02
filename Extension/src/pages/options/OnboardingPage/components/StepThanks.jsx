@@ -9,11 +9,11 @@ import { CheckList } from '~src/pages/common/components/List/CheckList';
 import imageUrlEN from './assets/illustration-telemetry.png';
 import imageUrlFR from './assets/illustration-thank-you-fr.png';
 
-import videoUrlChromeFR from './assets/pin_extension_chrome_fr.webm';
-import videoUrlChromeEN from './assets/pin_extension_chrome_en.webm';
+/* import videoUrlChromeFR from './assets/pin_extension_chrome_fr.webm'; */
+/* import videoUrlChromeEN from './assets/pin_extension_chrome_en.webm'; */
 
-import videoUrlEdgeFR from './assets/pin_extension_edge_fr.webm';
-import videoUrlEdgeEN from './assets/pin_extension_edge_en.webm';
+/* import videoUrlEdgeFR from './assets/pin_extension_edge_fr.webm'; */
+/* import videoUrlEdgeEN from './assets/pin_extension_edge_en.webm'; */
 
 import Styles from './Steps.module.scss';
 
