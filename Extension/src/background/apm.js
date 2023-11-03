@@ -22,8 +22,8 @@ export const apm = (() => {
         log.info('APM agent starting locale={0}, version={1}, browser={2}, platform={3}', locale, version, browser, platform);
 
         agent = initApm({
-            serverUrl: 'https://www.qwant.com/apm/',
-            serviceName: 'qwant-viprivacy',
+            serverUrl: 'https://astian.org/apm/',
+            serviceName: 'midori-pmprivacy',
             serviceVersion: version,
             flushInterval: 100,
             active,
