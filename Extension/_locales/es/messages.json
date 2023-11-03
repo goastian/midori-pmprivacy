@@ -249,7 +249,7 @@
         "message": "La navegación protegida está deshabilitada, su motor de búsqueda predeterminado sigue siendo AstianGO."
     },
     "protection_level_standard": {
-        "message": "Estándan"
+        "message": "Estándar"
     },
     "protection_level_standard_description": {
         "message": "Bloquea la mayoría de los rastreadores y cookies de manera efectiva."
@@ -273,10 +273,10 @@
         "message": "Comentarios"
     },
     "survey_url": {
-        "message": "https://fr.surveymonkey.com/r/XPK9KHJ"
+        "message": "https://forms.zohopublic.com/astianinc/form/ProductFeedback/formperma/KVDI34o8BGt_s3FuWkUDzWM-vaDTEBMwdAymtMkJm4Y"
     },
     "uninstall_url": {
-        "message": "https://fr.surveymonkey.com/r/RX2XFHC"
+        "message": "https://forms.zohopublic.com/astianinc/form/AssetRequestForm/formperma/XnkU3d1r5Jmob5J7PhCuE8HBPKdpnD0ed4yvtj-LaAs"
     },
     "upsell_mobile_qrcode": {
         "message": "Escanea este código QR"
