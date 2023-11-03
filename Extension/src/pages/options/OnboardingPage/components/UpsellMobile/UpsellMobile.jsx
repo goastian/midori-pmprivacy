@@ -6,7 +6,7 @@ import Styles from './UpsellMobile.module.scss';
 import QRCode from '../assets/qr-code.png';
 
 import imageUrlEN from '../assets/upsell-mobile.png';
-import imageUrlFR from '../assets/upsell-mobile-fr.png';
+import imageUrlFR from '../assets/upsell-mobile-es.png';
 
 import { ButtonDlApp } from './ButtonDlApp';
 
