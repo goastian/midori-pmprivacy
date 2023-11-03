@@ -7,11 +7,11 @@ import { backgroundPage } from '~src/background/extension-api/background-page';
 import Styles from './Steps.module.scss';
 
 import imageUrlEN from './assets/illustration-telemetry.png';
-import imageUrlFR from './assets/illustration-telemetry-es.png';
+import imageUrlES from './assets/illustration-telemetry-es.png';
 
 const locale = backgroundPage.app.getLocale();
 
-const imageUrl = locale === 'fr' ? imageUrlFR : imageUrlEN;
+const imageUrl = locale === 'fr' ? imageUrlES : imageUrlEN;
 
 export const StepTelemetry = ({
     onChange,
@@ -41,7 +41,7 @@ export const StepTelemetry = ({
                     </Flex>
                 </Card>
             </Stack>
-            <img src={imageUrl} alt="" width="336" height="354" />
+            <img src={imageUrl} alt="" width="270" height="350" />
         </Box>
     );
 };

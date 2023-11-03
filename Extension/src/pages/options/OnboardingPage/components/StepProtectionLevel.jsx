@@ -25,7 +25,7 @@ export const StepProtectionLevel = ({ protectionLevel, updateProtectionLevel }) 
             <Text as="p" typo="body-1" color="primary">
                 {t('onboarding_step_protection_level_description')}
                 <br />
-                <QwantVIMidoriPMPrivacyPrivacy />
+                <MidoriPMPrivacy />
             </Text>
             <Box className={Styles.StepChoices} mt="m">
                 <CheckboxCard

@@ -7,14 +7,13 @@ import { browserUtils } from '~src/background/utils/browser-utils';
 import { backgroundPage } from '~src/background/extension-api/background-page';
 import { CheckList } from '~src/pages/common/components/List/CheckList';
 import imageUrlEN from './assets/illustration-telemetry.png';
-import imageUrlFR from './assets/illustration-thank-you-fr.png';
+import imageUrlES from './assets/illustration-thank-you-en.png';
 
-/* import videoUrlChromeFR from './assets/pin_extension_chrome_fr.webm'; */
-/* import videoUrlChromeEN from './assets/pin_extension_chrome_en.webm'; */
+import videoUrlChromeFR from './assets/pin_extension_chrome_fr.webm';
+import videoUrlChromeEN from './assets/pin_extension_chrome_en.webm';
 
-/* import videoUrlEdgeFR from './assets/pin_extension_edge_fr.webm'; */
-/* import videoUrlEdgeEN from './assets/pin_extension_edge_en.webm'; */
-
+import videoUrlEdgeFR from './assets/pin_extension_edge_fr.webm';
+import videoUrlEdgeEN from './assets/pin_extension_edge_en.webm';
 import Styles from './Steps.module.scss';
 
 const showTutorial = !browserUtils.isFirefoxBrowser();
@@ -23,12 +22,12 @@ const locale = backgroundPage.app.getLocale();
 const videoUrl = (() => {
     const isEdge = browserUtils.isEdgeBrowser() || browserUtils.isEdgeChromiumBrowser();
     if (isEdge) {
-        return locale === 'fr' ? videoUrlEdgeFR : videoUrlEdgeEN;
+        return locale === 'en' ? videoUrlEdgeFR : videoUrlEdgeEN;
     }
-    return locale === 'fr' ? videoUrlChromeFR : videoUrlChromeEN;
+    return locale === 'en' ? videoUrlChromeFR : videoUrlChromeEN;
 })();
 
-const imageUrl = locale === 'fr' ? imageUrlFR : imageUrlEN;
+const imageUrl = locale === 'en' ? imageUrlES : imageUrlEN;
 
 export const StepThanks = () => {
     return (
@@ -44,7 +43,7 @@ export const StepThanks = () => {
                     <source src={videoUrl} type="video/webm" />
                 </video>
             )}
-            {!showTutorial && <img src={imageUrl} alt="" width="336" height="354" />}
+            {!showTutorial && <img src={imageUrl} alt="" width="270" height="345" />}
         </Box>
     );
 };

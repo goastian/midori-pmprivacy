@@ -15,7 +15,7 @@ export const StepPermissions = () => {
                     {t('onboarding_step_request_permissions_description')}
                 </Box>
             </Text>
-            <img src={PermissionsRequestImage} alt="" width="336" height="354" />
+            <img src={PermissionsRequestImage} alt="" width="336" height="170" />
         </Box>
     );
 };
