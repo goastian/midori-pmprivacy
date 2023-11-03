@@ -18,7 +18,7 @@ export function UpsellMobile() {
     return (
         <Card className={Styles.UpsellMobile} pr="xl">
             <div className={Styles.LeftImage}>
-                <img src={imageUrl} width="196" height="196" alt="" />
+                <img src={imageUrl} width="170" height="196" alt="" />
             </div>
             <Stack gap="m">
                 <Text typo="heading-5" color="primary" bold>
