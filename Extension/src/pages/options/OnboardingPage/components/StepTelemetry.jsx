@@ -7,7 +7,7 @@ import { backgroundPage } from '~src/background/extension-api/background-page';
 import Styles from './Steps.module.scss';
 
 import imageUrlEN from './assets/illustration-telemetry.png';
-import imageUrlFR from './assets/illustration-telemetry-fr.png';
+import imageUrlFR from './assets/illustration-telemetry-es.png';
 
 const locale = backgroundPage.app.getLocale();
 
